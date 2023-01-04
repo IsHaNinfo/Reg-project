@@ -1,0 +1,11 @@
+.Sent {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  line-height: 6pt;
+  color: rgb(245, 242, 242);
+  transform: translate(-30%, -30%);
+  text-align: left;
+  font-family: "Patrick Hand", cursive;
+  font-size: 35px;
+}

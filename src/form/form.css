@@ -14,9 +14,9 @@
 .loginname {
   font-size: 80px;
   padding-left: 30px;
-  font-family: "Imprima", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: rgb(19, 108, 216);
-  font-weight: 100;
+  font-weight: bold;
   margin-top: 20px;
 }
 
