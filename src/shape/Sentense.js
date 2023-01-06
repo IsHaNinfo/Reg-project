@@ -4,8 +4,8 @@ import "./sentense.css";
 const Sentense = () => {
   return (
     <div className="Sent">
-      <h4>Build your team and</h4>
-      <h4>improve yourself with</h4>
+      <h4>Welcome to</h4>
+      <h4>Software Project Management System</h4>
       <h4>Lenzz</h4>
     </div>
   );

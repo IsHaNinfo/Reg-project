@@ -1,5 +1,6 @@
-import { useState } from "react";
+import React from "react";
 import "./inputBox.css";
+import Button from "./Button";
 
 const InputBox = () => {
   return (
@@ -13,10 +14,10 @@ const InputBox = () => {
 
           <div className="form-box">
             <label htmlFor="Email">Email</label>
-            <input type="email" className="form-control" placeholder="email" />
+            <input type="email" className="form-control" placeholder="Email" />
           </div>
           <div className="form-box">
-            <label htmlFor="FirstName"> firstname</label>
+            <label htmlFor="FirstName"> First name</label>
             <input
               type="text"
               className="form-control"
@@ -24,11 +25,11 @@ const InputBox = () => {
             />
           </div>
           <div className="form-box">
-            <label htmlFor="LastName">lastname</label>
+            <label htmlFor="LastName">Last name</label>
             <input
               type="text"
               className="form-control"
-              placeholder="lastname"
+              placeholder="Last name"
             />
           </div>
           <div className="form-box">
@@ -45,7 +46,7 @@ const InputBox = () => {
             <input
               type="password"
               className="form-control"
-              placeholder="Confirm password"
+              placeholder="Confirm_password"
             />
           </div>
           <div className="form-box">
@@ -53,7 +54,7 @@ const InputBox = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="companykey"
+              placeholder="Company_key"
             />
           </div>
           <div className="form-box">
@@ -61,7 +62,7 @@ const InputBox = () => {
             <input
               type="phone"
               className="form-control"
-              placeholder="contact_number"
+              placeholder="Contact_number"
             />
           </div>
           <div className="form-box-disc">
@@ -73,6 +74,7 @@ const InputBox = () => {
             />
           </div>
         </div>
+        <Button />
       </form>
     </div>
   );

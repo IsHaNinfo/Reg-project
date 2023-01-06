@@ -8,13 +8,12 @@
 
 .auth-form-container {
   margin-left: 5px;
-  font-size: 25px;
 }
 
 .loginname {
   font-size: 80px;
   padding-left: 30px;
-  font-family: "Ubuntu", sans-serif;
+
   color: rgb(19, 108, 216);
   font-weight: bold;
   margin-top: 20px;
@@ -35,6 +34,17 @@ button {
   color: rgb(3, 48, 55);
   background-color: #009dce;
   border: 1px solid rgb(42, 173, 213);
+}
+
+.heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(19, 108, 216);
+  padding: 2px;
+  margin-bottom: 0px;
+
+  padding-left: 250px;
 }
 
 button:hover {
