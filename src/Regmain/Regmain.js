@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import "./login.css";
+import React from "react";
+import "./Regmain.css";
 import Shape from "../shape/Shape";
 import Form from "../form/Form";
 

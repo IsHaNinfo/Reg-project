@@ -1,5 +1,5 @@
 import "./App.css";
-import Login from "./loginmain/Login";
+import Login from "./Regmain/Regmain";
 
 function App() {
   return (
