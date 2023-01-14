@@ -1,0 +1,87 @@
+.formInput {
+  width: 140%;
+  max-width: 650px;
+  margin-top: 75px;
+  padding: 10px;
+  margin-right: 155x;
+  margin-left: 120px;
+}
+
+.inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.formbox :nth-child(2n) {
+  justify-content: end;
+}
+
+.formbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding-bottom: 10px;
+}
+
+label {
+  width: 95%;
+  font-size: 15px;
+  color: rgb(112, 112, 112);
+  font-weight: bold;
+  margin: 7px 0;
+}
+
+.formbox input {
+  height: 37px;
+  width: 85%;
+
+  outline: none;
+  border-radius: px solid gray;
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.formboxdisc {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-bottom: 10px;
+}
+
+.formboxdisc input {
+  height: 85px;
+
+  width: 590px;
+
+  outline: none;
+  border-radius: 1px solid gray;
+  padding: 0 8px;
+}
+
+.formsubmitbtn input {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+  margin-left: 355px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(248, 247, 247);
+  background-color: rgb(19, 108, 216);
+  /* stylelint-disable rule */ /* stylelint-enable rule */
+}
+
+.formsubmitbtn input:hover {
+  background: rgba(9, 55, 120, 0.8);
+  color: rgb(255, 255, 255);
+}
+
+p {
+  color: red;
+  font-size: 10px;
+}

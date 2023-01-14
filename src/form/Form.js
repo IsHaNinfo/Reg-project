@@ -1,18 +1,15 @@
 import React from "react";
-import "./form.css";
+import classes from "./Form.module.css";
 import InputBox from "./InputBox";
-import Avatar from "./Avatar";
-
-const Form = () => {
+import "bootstrap/dist/css/bootstrap.min.css";
+const Form = (props) => {
   return (
-    <div className="auth-form-container">
-      <div className="heading">
+    <div className={classes.authformcontainer}>
+      {props.children}
+      <div className={classes.heading}>
         <h1>Create your Account</h1>
       </div>
-      <Avatar
-        src="https://img.freepik.com/premium-vector/man-avatar-profile-round-icon_24640-14044.jpg?w=740"
-        alt="Avatar"
-      />
+
       <InputBox />
     </div>
   );

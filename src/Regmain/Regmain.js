@@ -1,11 +1,12 @@
 import React from "react";
-import "./Regmain.css";
+import classes from "./Regmain.module.css";
 import Shape from "../shape/Shape";
 import Form from "../form/Form";
 
-const Login = () => {
+const Login = (props) => {
   return (
-    <div className="main">
+    <div className={classes.main}>
+      {props.children}
       <Shape />
       <Form />
     </div>

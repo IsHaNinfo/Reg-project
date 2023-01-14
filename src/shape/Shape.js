@@ -1,12 +1,12 @@
 import React from "react";
-import "./shape.css";
+import classes from "./Shape.module.css";
 import Sentense from "./Sentense";
 import Image from "./Image";
-import Logo from "./Logo";
 
-const Shape = () => {
+const Shape = (props) => {
   return (
-    <div className="shape">
+    <div className={classes.Shape}>
+      {props.children}
       <Image />
 
       <Sentense />

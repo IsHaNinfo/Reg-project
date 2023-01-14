@@ -1,12 +1,13 @@
 import React from "react";
-import "./sentense.css";
+import classes from "./Sentense.module.css";
 
-const Sentense = () => {
+const Sentense = (props) => {
   return (
-    <div className="Sent">
-      <h4>Welcome to</h4>
-      <h4>Software Project Management System</h4>
-      <h4>Lenzz</h4>
+    <div className={classes.Sent}>
+      {props.children}
+      <h1>Welcome to</h1>
+      <h1>Software Project Management System</h1>
+      <h1>Lenzz</h1>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-.auth-form-container,
+.authformcontainer,
 .login-form {
   display: flex;
   flex-direction: column;
@@ -6,17 +6,8 @@
   justify-content: center;
 }
 
-.auth-form-container {
+.authformcontainer {
   margin-left: 5px;
-}
-
-.loginname {
-  font-size: 80px;
-  padding-left: 30px;
-
-  color: rgb(19, 108, 216);
-  font-weight: bold;
-  margin-top: 20px;
 }
 
 button {
@@ -37,14 +28,13 @@ button {
 }
 
 .heading {
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
-  color: rgb(19, 108, 216);
+  color: rgb(69, 70, 72);
   padding: 2px;
   margin-bottom: 0px;
 
-  padding-left: 250px;
+  padding-left: 20px;
 }
 
 button:hover {
@@ -62,7 +52,7 @@ button:hover {
 
 .sign {
   text-align: center;
-  margin-right: 300px;
+  margin-right: 301px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   min-height: 1vh;
